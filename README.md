@@ -3,7 +3,9 @@ Linear Regression Comparison of the Anscombe Quartet between R, Python, and Go
 </h2>
 
 <h4 align="center">
-*Please note that all code for this project was re-created from work done by Andrew D'Amico.*  
+*Please note that all code for this project was re-created from work done by Andrew D'Amico.*
+</h4>
+<h4 align="center">
 Problem setup and conditions were created by Northwestern University SPS MSDS 431
 </h4>
 
@@ -27,35 +29,35 @@ Runs per experiment: 15
 
 ### Performance on Anscombe Quartet Set One:
 
-  LANGUAGE | INTERSECT |  SLOPE   |  RUNTIME    
------------+-----------+----------+-----------
-  Go       |  3.000091 | 0.500091 | 0.00000091  
-  Python   |  3.000091 | 0.500091 | 0.00020209  
-  R        |  3.000091 | 0.500091 | 0.00067086  
+|  LANGUAGE | INTERSECT |  SLOPE   |  RUNTIME  | 
+|-----------|-----------|----------|-----------|  
+|  Go       |  3.000091 | 0.500091 | 0.00000091|  
+|  Python   |  3.000091 | 0.500091 | 0.00020209|  
+|  R        |  3.000091 | 0.500091 | 0.00067086|  
 
 ### Performance on Anscombe Quartet Set Two:
 
-  LANGUAGE | INTERSECT |   SLOPE   |  RUNTIME
------------+-----------+-----------+-----------
-  Go       | 3.0009091 |       0.5 | 0.00000035
-  Python   | 3.0009091 | 0.5000001 | 0.00018959
-  R        | 3.0009091 | 0.5000001 | 0.00066988
+|  LANGUAGE | INTERSECT |   SLOPE   |  RUNTIME  |
+|-----------|-----------|-----------|-----------|
+|  Go       | 3.0009091 |       0.5 | 0.00000035|
+|  Python   | 3.0009091 | 0.5000001 | 0.00018959|
+|  R        | 3.0009091 | 0.5000001 | 0.00066988|
 
 ### Performance on Anscombe Quartet Set Three:
 
-  LANGUAGE | INTERSECT |   SLOPE   |  RUNTIME
------------+-----------+-----------+-----------
-  Go       | 3.0024546 | 0.4997273 | 0.00000048
-  Python   | 3.0024546 | 0.4997273 | 0.00018959
-  R        | 3.0024546 | 0.4997273 | 0.00067272
+|  LANGUAGE | INTERSECT |   SLOPE   |  RUNTIME  |
+|-----------|-----------|-----------|-----------|
+|  Go       | 3.0024546 | 0.4997273 | 0.00000048|
+|  Python   | 3.0024546 | 0.4997273 | 0.00018959|
+|  R        | 3.0024546 | 0.4997273 | 0.00067272|
 
 ### Performance on Anscombe Quartet Set Four:
 
-  LANGUAGE | INTERSECT |   SLOPE   |  RUNTIME
------------+-----------+-----------+-----------
-  Go       | 3.0017273 | 0.4999091 | 0.00000055
-  Python   | 3.0017273 | 0.4999091 | 0.00019167
-  R        | 3.0017273 | 0.4999091 | 0.00067199
+|  LANGUAGE | INTERSECT |   SLOPE   |  RUNTIME  |
+|-----------|-----------|-----------|-----------|
+|  Go       | 3.0017273 | 0.4999091 | 0.00000055|
+|  Python   | 3.0017273 | 0.4999091 | 0.00019167|
+|  R        | 3.0017273 | 0.4999091 | 0.00067199|
 
 
 ## Average Performances from all Tests Ran during Session
@@ -70,7 +72,7 @@ Mean Go Runtime: 5.696243333333337e-07
 ### Table of Average Run Time Ratios:
 
   BASELINE |    GO (NUMERATOR)     | PYTHON (NUMERATOR)  |   R (NUMERATOR)
------------+-----------------------+---------------------+-------------------
+-----------|-----------------------|---------------------|-------------------
   Go       |                     1 |  339.22210720164696 | 1178.5976661314644
   Python   | 0.0029479210781671156 |                   1 |  3.474412902667513
   R        | 0.0008484659597895869 | 0.28781841076869147 |                  1
