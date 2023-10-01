@@ -23,9 +23,9 @@ func calcPerformance() {
 	meanR, _ := stats.Mean(performanceR)
 	meanGo, _ := stats.Mean(performanceGo)
 	fmt.Println()
-	fmt.Println("Mean Python Runtime:", fmt.Sprintf("#{meanPython}"))
-	fmt.Println("Mean R Runtime:", fmt.Sprintf("#{meanR}"))
-	fmt.Println("Mean Go Runtime:", fmt.Sprintf("#{meanGo}"))
+	fmt.Println("Mean Python Runtime:", fmt.Sprintf("%v", meanPython))
+	fmt.Println("Mean R Runtime:", fmt.Sprintf("%v", meanR))
+	fmt.Println("Mean Go Runtime:", fmt.Sprintf("%v", meanGo))
 	fmt.Println()
 	performanceMatrix(meanPython, meanR, meanGo)
 }
