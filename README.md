@@ -14,9 +14,15 @@ Problem setup and conditions were created by Northwestern University SPS MSDS 43
 The managers of a hypothetical tech startup company would like to have all employees use the same coding language - GO. In order to convince the company's data scientists of Go's performance and accuracy, a comparison test will be performed. Results from a linear regression test on four small subsets of the Anscombe dataset will be compared between Python, R, and Go. Run times between each experiments will also be compared.
 
 ## Running the Experiments
-This project was completed with an executable file. You may run "anscombe.exe" to perform all linear regression comparisons on your device. It will present you with options to run each individual subset of the Anscombe Data, to run  all subsets at once, to view and graph the average of all runs, to configure settings, and to provide help. 
+This project was completed with an executable file. You may run "anscombe.exe" to perform all linear regression comparisons on your device. It will present you with a variety of options to choose from. To run the experiment, choose one of the options that calculate performance of an Anscombe Set. You may choose any one particular set from one through four, or run all sets at once. 
 
-Choosing an option that calculates the performance of a subset of data will automatically output a table comparing the coefficient and runtime results between all three languages.
+Choosing an option that calculates the performance of a subset of data will automatically output a table comparing the calculated intercept and slope coefficients as well as the runtime results between all three languages.
+
+Viewing the average performance for all tests in current session will produce the average run times for all tests from each language. It will also produce a table listing all possible ratios. Columns indicate the numerator of the ratio, and rows indicate the denominator.
+
+Graphing the average performance for all tests in current session will produce a color coded graph of the average run times for all tests from each language.
+
+The help option will direct you here, to the README file.
 
 The configuration menu allows you to change the number of runs per test, the number of runs per experiment, and gives you the ability to set the decimal output of coefficient and runtime results.
 
