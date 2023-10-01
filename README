@@ -1,0 +1,24 @@
+# Linear Regression Comparison of the Anscombe Quartet between R, Python, and Go
+Please note that all code for this project was re-created from work done by Andrew D'Amico.
+Problem setup and conditions were created by Northwestern University SPS MSDS 431
+
+## The Problem
+The managers of a hypothetical tech startup company would like to have all employees use the same coding language - GO. In order to convince the company's data scientists of Go's performance and accuracy, a comparison test will be performed. Results from a linear regression test on four small subsets of the Anscombe dataset will be compared between Python, R, and Go. Run times between each experiments will also be compared.
+
+## Running the Experiments
+This project was completed with an executable file. You may run "anscombe.exe" to perform all linear regression comparisons on your device. It will present you with options to run each individual subset of the Anscombe Data, to run  all subsets at once, to view and graph the average of all runs, to configure settings, and to provide help. 
+
+Choosing an option that calculates the performance of a subset of data will automatically output a table comparing the coefficient and runtime results between all three languages.
+
+The configuration menu allows you to change the number of runs per test, the number of runs per experiment, and gives you the ability to set the decimal output of coefficient and runtime results.
+
+## Personal Results
+
+
+Configuration settings were set to the following
+Runs per test: 500
+Runs per experiment: 15
+
+
+
+## Recommendations to Management
