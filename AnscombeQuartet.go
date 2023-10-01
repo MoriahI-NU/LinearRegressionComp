@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-
-	linear "github.com/jhorwit2/simple-regression"
+	"github.com/montanaflynn/stats"
+	"strcony"
 )
 
 func main() {
