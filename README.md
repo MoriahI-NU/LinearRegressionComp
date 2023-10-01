@@ -24,8 +24,8 @@ The configuration menu allows you to change the number of runs per test, the num
 
 ## Subset Results
 Configuration settings were set to the following
-Runs per test: 500
-Runs per experiment: 15
+- Runs per test: 500
+- Runs per experiment: 15
 
 ### Performance on Anscombe Quartet Set One:
 
@@ -64,9 +64,9 @@ Runs per experiment: 15
 
 ### Mean Runtimes:
 
-Mean Python Runtime: 0.0001932291666666668
-Mean R Runtime: 0.0006713579098383584
-Mean Go Runtime: 5.696243333333337e-07
+- Mean Python Runtime: 0.0001932291666666668
+- Mean R Runtime: 0.0006713579098383584
+- Mean Go Runtime: 5.696243333333337e-07
 
 
 ### Table of Average Run Time Ratios:
